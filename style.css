@@ -114,6 +114,41 @@ nav .btn {
 }
 
 .coin h3 {
-    color: #fff;
-    margin-bottom: 5px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    padding: 0 2px;
+    font-size: 12px;
+    margin: 10px;
+  }
+
+  nav .btn {
+    padding: 5px 20px;
+    font-size: 12px;
+  }
+
+  .content h1 {
+    font-size: 44px;
+  }
+
+  .coin-list {
+    right: 0%;
+  }
+
+  .coin {
+    font-size: 10px;
+    margin: 0 5px;
+    padding: 5px;
+  }
+
+  .coin img {
+    width: 30px;
+  }
 }
